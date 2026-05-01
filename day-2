@@ -1,19 +1,21 @@
-// Problem -- 1 if statement
-// #include <iostream>
-// using namespace std;
+// Problem -- 1 
+// if statement
+#include <iostream>
+ using namespace std;
 
-// int main() {
-//     int age;
-//     cin >> age;
+ int main() {
+     int age;
+     cin >> age;
     
-//     if(age >= 18) {
-//         cout << "Eligible for Vote...";
-//     }
-//     return 0;
-// }
+    if(age >= 18) {
+cout << "Eligible for Vote...";
+   }
+     return 0;
+ }
 
 
-//  problem-2 -- if-else statement
+//  problem-2 
+// if-else statement
 #include <iostream>
 using namespace std;
 
@@ -32,7 +34,8 @@ int main()
 }
 
 
-// Problem 3 -- Nested if-else statement 
+// Problem 3 
+// Nested if-else statement 
 #include <iostream>
 using namespace std;
 
