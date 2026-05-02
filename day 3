@@ -1,0 +1,102 @@
+//problem 1
+//print 1 to 10 usinf for loop
+#include <iostream>
+using namespace std;
+ 
+ int main() {
+     for(int i = 1; i <= 10; i++){
+         cout << i << " ";
+            }
+ }
+
+
+//Problem 2 
+// Print even numbers from 0 to 10
+ #include <iostream>
+ using namespace std;
+
+ int main() {
+    for(int i = 0; i <= 10; i += 2){
+        cout << i << " ";
+    }
+ }
+
+// Problem 3
+// Print 1 to 10 using for while loop
+ #include <iostream>
+ using namespace std;
+
+ int main() {
+     int i = 1;
+     while(i <= 10){
+         cout << i << " ";
+         i++;
+     }
+ }
+
+
+// Problem 4 
+// Print odd numbers from 1 to 10
+
+ #include <iostream>
+ using namespace std;
+
+ int main() {
+     int i = 1;
+     while(i <= 10){
+         cout << i << " ";
+         i+=2;
+     }
+ }
+
+
+
+//problem 5
+//print 1 to 10 using do-whilw loop
+#include <iostream>
+using namespace std;
+ int main (){
+     int i =1;
+     do {
+         cout << i << " ";
+         i++;
+        } while  (i<=10);
+ }
+
+
+//problem 6 
+//factorial of a number
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n;
+    cin >> n;
+    int fact = 1;
+    
+    for(int i = n; i >= 1; i--){
+        fact = fact * i;
+        }
+        cout << fact;
+}
+
+
+
+
+
+//Program 8 
+//Smart phone unlock
+#include<iostream>
+using namespace std;
+
+int main(){
+    int password;
+    
+    do{
+        cout << "Enter your password here";
+        cin >> password;
+    } while(password != 1234);
+    
+    cout << "Phone Unlocked...";
+}
