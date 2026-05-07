@@ -1,1 +1,19 @@
+//problem - 1 
+//
+#include <iostream>
+using namespace std;
+
+ void updatebyValue(int a){
+     a = 500;
+ }
+ void updatebyRefrence(int &a){
+     a = 500;
+ }
+ int main(){
+     int originial = 100;
+     updatebyValue(originial);
+     cout << originial << "\n";
+     updatebyRefrence(originial);
+     cout << originial;
+ }
 
